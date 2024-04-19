@@ -1,0 +1,236 @@
+# 用户信息
+user:
+  name: 楠笙小呆
+  first_name: 小呆
+  last_name: 楠笙
+  email: zhudaidai416@163.com
+  qq: 1790386623
+  domain: https://www.imalun.com
+  avatar: /images/avatar.gif
+  describe: 个人博客
+
+# 网站图标
+favicon:
+  logo: /images/logo.svg
+  icon16: /images/logo.svg
+  icon32: /images/logo.svg
+  appleTouchIcon: /images/logo.svg
+  webmanifest: /site.webmanifest
+  visibilitychange: true
+  hidden: failure.ico
+  showText: (/≧▽≦/)你又来啦！
+  hideText: (●—●)快回来！
+
+assets:
+  third_party_provider: https://npm.elemecdn.com
+  icons:
+    type: symbol
+    # 这里是您从 iconfont 处获得的图标链接。
+    css:
+    js: //at.alicdn.com/t/c/font_4511969_891ndc7g78k.js
+
+# 横幅
+banner:
+  use_cover: true
+  default:
+    type: img
+    bgurl: /images/banner.gif
+    bannerTitle: 我向远处的你挥手时，<br>突然明白了挥手的意义。
+    bannerText: Hi, welcome to daidai's blog!
+  index:
+    type: img
+    bgurl: /images/banner.gif
+    bannerTitle: 我向远处的你挥手时，<br>突然明白了挥手的意义。
+    bannerText: Hi, welcome to daidai's blog!
+  archive:
+    bannerTitle: 把自己的选择变成正确的选择。
+    bannerText: The article archive
+  links:
+    bannerTitle: 唯有守得住初心，<br>才能日益精进。
+    bannerText: A link to a friend's website
+  tags:
+    bannerTitle: 心之所向，<br>勇往直前。
+    bannerText: The tags cloud
+  about:
+    type: img
+    bgurl: /images/banner3.jpg
+    bannerTitle: 就算相聚很远，<br>挥手像是问候，<br>又像是再见。
+    bannerText: About me
+  danmu:
+    enable: true
+    avatar: true
+    delayRange: 5000
+    speed: 80
+
+# 导航栏
+top_bars:
+  - title: 首页
+    url: /
+  - title: 分类
+    url: /categories/
+  - title: 技术博客
+    url: https://zhudaidai416.github.io/myblog/
+  - title: 图库
+    url: /gallery/
+  # - title: 友链
+  #   url: /links/
+  - title: 关于
+    url: /about/
+
+# 侧边栏
+sidebar:
+  info: # 个人信息
+    - key: 住址
+      val: 龙村
+    - key: 村龄
+      val: 6
+    - key: qq
+      val: 1790386623
+
+  social: # 社交地址
+    - name: github
+      icon: icon-github
+      url: https://github.com/zhudaidai416
+    - name: gitee
+      icon: icon-gitee1
+      url: https://gitee.com/zhudaidai
+    - name: b站
+      icon: icon-wf_Bzhan
+      url: https://space.bilibili.com/420455865?spm_id_from=333.1007.0.0
+    - name: 抖音
+      icon: icon-douyin1
+      url: https://www.douyin.com/user/MS4wLjABAAAAQN5DnYrWkvl5xwBk8vOOniQ70CYHs0xizArQfY-dKU4
+
+  # 打字动画
+  typedTextPrefix: I`M
+  typedText: ["ZHU DAIDAI"]
+
+# 自定义图标 Icon
+icons:
+  # 主题切换图标
+  sun: icon-taiyang1
+  moon: icon-yueqiu
+  # 首页视频播放
+  play: icon-play
+  # 邮箱
+  email: icon-a-youxiangdianziyouxiang
+  # 分类进入图标
+  next: icon-youjiantou
+  # 文章详情 日期
+  calendar: icon-riqi
+  # 文章详情 时间
+  clock: icon-shijian
+  # 文章详情 作者
+  user: icon-zuozhe
+  # 返回顶部 v1.1.3+
+  back_top: icon-feichuan
+  # 查询 v1.1.5+
+  search: icon-shouye1
+  # 关闭 v1.1.5+
+  close: icon-xiaolongbao
+  # 打赏 v1.1.7+
+  reward: icon-dashang
+  # 用户信息和文章目录切换 v1.2.10+
+  user_tag: icon-user-alt
+  toc_tag: icon-wenjianjia
+  # 右下角固定按钮 v1.2.11+
+  read: icon-book
+  arrows: icon-arrows-alt-h1
+  # 代码高亮折叠 v2.0.0+
+  double_arrows: icon-angle-double-down
+  # 代码复制
+  copy: icon-copy
+  douyin: icon-douyin1
+  gitee: icon-gitee1
+  Bzhan: icon-wf_Bzhan
+
+
+# ------ 文章 ------
+# 文章目录
+toc:
+  enable: true
+  list_number: true
+  post_title: false
+  max_depth: 3
+  min_depth: 1
+
+# 自定义封面图
+cover:
+  default: 
+    - /images/cover1.jpg
+    - /images/cover2.jpg
+    - /images/cover3.jpg
+    - /images/cover4.jpg
+    - /images/cover5.jpg
+    - /images/cover6.jpg
+    - /images/cover7.jpg
+    - /images/cover8.jpg
+    - /images/cover9.jpg
+    - /images/cover10.jpg
+  type: random
+
+# 上下篇文章
+post_pagination:
+  enable: true
+  type: small
+
+# 图片懒加载
+lazyload:
+  enable: true
+
+# 归档页
+archive:
+  type: less
+
+
+# ------ 其他配置 ------
+# 分类卡片
+categorie_card:
+  enable: true
+  len: 2
+  list: ["未分类", "剪辑"]
+
+# 代码高亮 Highlight
+highlight:
+  theme: true
+  title: default
+  copy: true
+  lang: true
+  code_word_wrap: false
+  height_limit: 200 # 超出时，显示折叠按钮
+
+# 固定按钮块
+rightside:
+  readmode: true
+  aside: true
+
+# 关于
+about:
+  title: 我珍惜每一次相遇和每一次离别。你若是也突然讲不出口，就对我挥挥手吧。你会懂得我，我也会懂得你。
+  introduction: 大家好，我是 <strong>朱呆呆</strong>，很高兴您能在浩瀚如烟的互联网世界里发现这个博客，更感谢您能够饶有兴致地浏览这个页面。建立这个 Blog 是出于兴趣爱好，我将在此分会分享一些学习笔记，可能还会分享少许图片、视频以及其他有趣东西的链接。
+  blog: 
+    <ul class="trm-list">
+      <li>程序：Hexo </li>
+      <li>主题：Hexo-theme-async </li>
+    </ul>
+  privacy: 本网站不会追踪访客行为，且不要求访客提供任何敏感信息（比如真实姓名、身份证号码、手机号等），因而也不存在任何隐私泄漏问题。访客参与评论，必须遵守法律法规和基本道德规范，文明礼貌。严禁发布任何有关淫秽、反动、暴力、博彩、恐吓、低俗的内容或违法信息，在尊重言论自由的同时请保持和平与理性。请勿对他人采取不友好的评论或其它过激行为。
+
+# 404
+not_found: 
+	path: /
+	name: 返回首页
+	text: 页面不存在！
+
+# 页脚
+footer:
+  powered:
+    enable: true
+  beian: # 备案
+    enable: false
+    icp:
+  copyrightYear: 2024 # 起始年份
+  live_time: # 运行时间
+    enable: true
+    prefix: footer.tips
+    start_time: 04/16/2024 00:00:00
+  custom_text:
