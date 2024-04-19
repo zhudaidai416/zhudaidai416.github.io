@@ -29,6 +29,11 @@ assets:
     css:
     js: //at.alicdn.com/t/c/font_4511969_891ndc7g78k.js
 
+cdn:
+  js:
+    head:
+    base: [demo.js]
+
 # 横幅
 banner:
   use_cover: true
@@ -58,9 +63,10 @@ banner:
     bannerText: About me
   danmu:
     enable: true
-    avatar: true
+    avatar: false
+    gapWidth: 100
     delayRange: 5000
-    speed: 80
+    speed: 50
 
 # 导航栏
 top_bars:
