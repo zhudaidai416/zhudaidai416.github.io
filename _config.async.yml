@@ -18,7 +18,7 @@ favicon:
   webmanifest: /site.webmanifest
   visibilitychange: true
   hidden: failure.ico
-  showText: (/≧▽≦/)你又来啦！
+  showText: ღ(*°▽°*)笔芯！
   hideText: (●—●)快回来！
 
 assets:
@@ -63,7 +63,7 @@ banner:
     bannerText: About me
   danmu:
     enable: true
-    avatar: false
+    avatar: true
     gapWidth: 100
     delayRange: 5000
     speed: 50
@@ -73,7 +73,7 @@ top_bars:
   - title: 首页
     url: /
   - title: 分类
-    url: /categories/
+    url: /category/
   - title: 技术博客
     url: https://zhudaidai416.github.io/myblog/
   - title: 图库
